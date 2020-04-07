@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our (Sparkify) business has seen very good growth with our streaming service. Our user base and song database is growing to meet our future business need. We shell move our data warehouse to a data lake. Our current data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app..
+Our (Sparkify) business has seen very good growth with our streaming service. Our user base and song database is growing to meet our future business need. We shell move our data warehouse to a data lake. Our current data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 We will build an ETL pipeline that will extracts data from S3 and process the data using Spark. And load the data back into S3 as a set of dimensional tables. This will provide analytics team to continue finding insights in what songs the users are listening to.
 
