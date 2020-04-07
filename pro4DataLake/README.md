@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Our (Sparkify) business has seen very good growth with our streaming service. Our user base and song database is growing to meet our future business need. We shell move our data warehouse to a data lake. Our current data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+Our (Sparkify) business has seen very good growth with our streaming service. Our user base and song database is growing to meet our future business need. We shell move our data warehouse to a data lake. Our current data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app..
 
 We will build an ETL pipeline that will extracts data from S3 and process the data using Spark. And load the data back into S3 as a set of dimensional tables. This will provide analytics team to continue finding insights in what songs the users are listening to.
 
-The queries given by the analytics team will be used to test the database and pipeline to compare actual with expected results. 
+The queries given by the analytics team will be used to test the database and pipeline to compare actual with expected results.
 
 ## Project Description
 In this project, you'll apply what you've learned on Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. To complete the project, you will need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. You'll deploy this Spark process on a cluster using AWS.
